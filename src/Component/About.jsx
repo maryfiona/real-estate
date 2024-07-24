@@ -1,7 +1,7 @@
 import '../Css/About.css'
 import about from '../image/about.svg'
 
-const Contact = () => {
+const About= () => {
   return (
     <div className='container-fluid  about-container'>
        <div className='img-container'>
@@ -32,5 +32,5 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default About;
 
