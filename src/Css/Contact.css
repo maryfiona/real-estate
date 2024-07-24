@@ -1,0 +1,44 @@
+.contact-container {
+    display: flex;
+    margin-top: 10rem;
+  }
+  
+  .contact {
+    background-color: #5b6265;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 50%; 
+    padding: 2rem; 
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+  }
+  
+  .contact-content {
+    margin-left: 2rem; 
+  }
+  
+  .img-container {
+    width: 50%; 
+  }
+  
+  .tele {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact, .img-container {
+      width: 100%;
+    }
+  }
+  

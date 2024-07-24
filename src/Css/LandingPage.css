@@ -1,0 +1,21 @@
+.red-text {
+    color: #993335;
+   }
+  
+  h1 {
+    margin-bottom: 20px; 
+  }
+  .img-fluid{
+    width: 400px;
+  
+     }
+     .botton{
+        background-color:#993335;
+        color: white;
+        width: 40%;
+        height: 50px;
+         border-radius: 5px;
+         outline: none;
+         border: none;
+         
+     }
